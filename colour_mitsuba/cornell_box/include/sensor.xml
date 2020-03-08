@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <sensor type="perspective">
+        <string name="fov_axis" value="smaller"/>
+        <float name="near_clip" value="10"/>
+        <float name="far_clip" value="2800"/>
+        <float name="focus_distance" value="1000"/>
+        <float name="fov" value="39.3077"/>
+        <transform name="to_world">
+            <lookat origin="278, 273, -800"
+                    target="278, 273, -799"
+                    up    ="  0,   1,    0"/>
+        </transform>
+        <sampler type="independent">  <!-- ldsampler -->
+            <integer name="sample_count" value="$spp"/>
+        </sampler>
+        <film type="hdrfilm">
+            <integer name="width" value="$width"/>
+            <integer name="height" value="$height"/>
+            <rfilter type="box"/>
+            <string name="pixel_format" value="xyz"/>
+        </film>
+    </sensor>
+</scene>

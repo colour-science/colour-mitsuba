@@ -1,0 +1,1603 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="3.0696866411294845"/>
+            <translate value="381.85467530000005, 124.75681304931641, 61.393650054931605"/>
+        </transform>
+        <ref id="patch1"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="3.4835981062368875"/>
+            <translate value="318.23637390839838, 70.195930480957031, 466.77050781249994"/>
+        </transform>
+        <ref id="patch2"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.2582901588723998"/>
+            <translate value="507.63415146577148, 45.165771484375, 163.06430053710937"/>
+        </transform>
+        <ref id="patch3"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.4363714503288709"/>
+            <translate value="307.94779968964849, 48.727466583251953, 91.125045776367131"/>
+        </transform>
+        <ref id="patch4"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.7048497756250354"/>
+            <translate value="515.77524185883783, 34.097026824951172, 324.503662109375"/>
+        </transform>
+        <ref id="patch5"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.7277667996314028"/>
+            <translate value="264.75967407929687, 132.8028564453125, 373.74887084960932"/>
+        </transform>
+        <ref id="patch6"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.1150352052889154"/>
+            <translate value="215.25643921601562, 42.300758361816406, 207.98059082031241"/>
+        </transform>
+        <ref id="patch7"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="3.8598834847152608"/>
+            <translate value="137.6692504953125, 127.24129486083984, 339.45700073242176"/>
+        </transform>
+        <ref id="patch8"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.8238836254947188"/>
+            <translate value="466.60826111542974, 36.477638244628906, 67.724670410156236"/>
+        </transform>
+        <ref id="patch9"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.746463589112339"/>
+            <translate value="196.13400269257812, 34.929267883300781, 287.79782104492182"/>
+        </transform>
+        <ref id="patch10"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.1696316909303008"/>
+            <translate value="507.30890274750982, 100.13089752197266, 93.62844085693358"/>
+        </transform>
+        <ref id="patch11"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.6121014667637441"/>
+            <translate value="369.8082275460938, 32.242027282714844, 33.481174468994098"/>
+        </transform>
+        <ref id="patch12"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.3843634772924607"/>
+            <translate value="86.684021003125054, 47.687240600585938, 123.3544921874999"/>
+        </transform>
+        <ref id="patch13"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.1363494079416774"/>
+            <translate value="115.25207520234369, 42.726997375488281, 421.53421020507801"/>
+        </transform>
+        <ref id="patch14"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.085095290119265"/>
+            <translate value="159.87051392304681, 41.701892852783203, 503.26196289062489"/>
+        </transform>
+        <ref id="patch15"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.6540968568075711"/>
+            <translate value="185.09979248750005, 53.081790924072266, 94.728576660156165"/>
+        </transform>
+        <ref id="patch16"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="3.2419576006774684"/>
+            <translate value="304.97120667207031, 64.839126586914063, 284.20001220703119"/>
+        </transform>
+        <ref id="patch17"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.196504798902271"/>
+            <translate value="52.597229010937497, 43.930095672607422, 361.68127441406239"/>
+        </transform>
+        <ref id="patch18"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.413477857208687"/>
+            <translate value="339.43998718964849, 105.80069732666016, 162.95324707031244"/>
+        </transform>
+        <ref id="patch19"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.1835833372390328"/>
+            <translate value="457.29811096894531, 84.541099548339844, 333.65603637695312"/>
+        </transform>
+        <ref id="patch20"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.9368747282979115"/>
+            <translate value="405.81008911835937, 38.737491607666016, 288.46438598632807"/>
+        </transform>
+        <ref id="patch21"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.1160442768330201"/>
+            <translate value="510.48283386933588, 42.320869445800781, 516.87921142578125"/>
+        </transform>
+        <ref id="patch22"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.9514618482144424"/>
+            <translate value="67.034576423046872, 59.029277801513672, 244.07508850097645"/>
+        </transform>
+        <ref id="patch23"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="2.3696495948215679"/>
+            <translate value="415.81791687714838, 47.393024444580078, 405.71261596679682"/>
+        </transform>
+        <ref id="patch24"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3085421023749537"/>
+            <translate value="255.03942871796869, 98.51177978515625, 533.02917480468739"/>
+        </transform>
+        <ref id="patch25"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0975888466588652"/>
+            <translate value="261.21289063203125, 37.021076202392578, 373.63436889648432"/>
+        </transform>
+        <ref id="patch26"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.61314275060399048"/>
+            <translate value="90.500122077343747, 12.26285457611084, 332.81924438476551"/>
+        </transform>
+        <ref id="patch27"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.94622544275787779"/>
+            <translate value="39.43731690156244, 18.92448616027832, 304.95843505859364"/>
+        </transform>
+        <ref id="patch28"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1554836820433541"/>
+            <translate value="233.00183106171875, 94.46002197265625, 243.23689270019526"/>
+        </transform>
+        <ref id="patch29"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.91976710691478536"/>
+            <translate value="110.66311646210937, 18.395339965820313, 295.97900390624989"/>
+        </transform>
+        <ref id="patch30"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3345908072336234"/>
+            <translate value="149.13720703828125, 58.447971343994141, 219.43940734863273"/>
+        </transform>
+        <ref id="patch31"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.6820906014123711"/>
+            <translate value="230.9336547921875, 54.650142669677734, 260.24392700195307"/>
+        </transform>
+        <ref id="patch32"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4276696116191632"/>
+            <translate value="182.92550659882812, 86.389312744140625, 253.04954528808585"/>
+        </transform>
+        <ref id="patch33"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.70251094886009868"/>
+            <translate value="123.18914795625, 14.050220489501953, 218.03732299804679"/>
+        </transform>
+        <ref id="patch34"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2326585792316482"/>
+            <translate value="25.635314948437554, 64.665321350097656, 171.56956481933582"/>
+        </transform>
+        <ref id="patch35"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0089685431437276"/>
+            <translate value="156.02029419648437, 20.179256439208984, 193.26614379882804"/>
+        </transform>
+        <ref id="patch36"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.60344272326904191"/>
+            <translate value="173.262634284375, 12.06871223449707, 224.67100524902335"/>
+        </transform>
+        <ref id="patch37"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.133581619827291"/>
+            <translate value="114.2786254953125, 22.671619415283203, 183.04626464843741"/>
+        </transform>
+        <ref id="patch38"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0049666473178744"/>
+            <translate value="20.539855964062554, 31.079147338867188, 76.927619934081918"/>
+        </transform>
+        <ref id="patch39"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0048661111531687"/>
+            <translate value="125.45184326875005, 20.097318649291992, 67.930038452148338"/>
+        </transform>
+        <ref id="patch40"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2176382815400049"/>
+            <translate value="119.02203369843755, 86.387237548828125, 71.912063598632713"/>
+        </transform>
+        <ref id="patch41"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.51277743286470023"/>
+            <translate value="99.854827887890679, 10.255550384521484, 81.022476196288963"/>
+        </transform>
+        <ref id="patch42"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.317159690687149"/>
+            <translate value="86.725433356640622, 102.39966583251953, 173.22496032714832"/>
+        </transform>
+        <ref id="patch43"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3381347844109586"/>
+            <translate value="275.1798095773438, 26.762491226196289, 26.762422561645447"/>
+        </transform>
+        <ref id="patch44"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4890058098838745"/>
+            <translate value="76.762573249218804, 29.780155181884766, 29.780130386352432"/>
+        </transform>
+        <ref id="patch45"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.75434100900662293"/>
+            <translate value="19.440368659375054, 15.086820602416992, 15.091970443725467"/>
+        </transform>
+        <ref id="patch46"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0547563871564778"/>
+            <translate value="21.764404303906304, 21.095090866088867, 116.87506103515614"/>
+        </transform>
+        <ref id="patch47"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3335445747682391"/>
+            <translate value="26.824035651562554, 55.997997283935547, 26.670886993408086"/>
+        </transform>
+        <ref id="patch48"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3253323535980286"/>
+            <translate value="385.42526245820306, 69.700950622558594, 342.15338134765619"/>
+        </transform>
+        <ref id="patch49"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0129464891753011"/>
+            <translate value="297.97009278046869, 20.258930206298828, 361.39996337890619"/>
+        </transform>
+        <ref id="patch50"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.87961384792709096"/>
+            <translate value="271.67050171601562, 17.592269897460937, 212.37928771972651"/>
+        </transform>
+        <ref id="patch51"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0578487044922018"/>
+            <translate value="364.99105835664062, 21.156963348388672, 240.78561401367185"/>
+        </transform>
+        <ref id="patch52"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.60185780705527236"/>
+            <translate value="540.76287651765131, 70.850456237792969, 336.87826538085937"/>
+        </transform>
+        <ref id="patch53"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1266010863195368"/>
+            <translate value="405.57188416230468, 30.711454391479492, 227.7232971191406"/>
+        </transform>
+        <ref id="patch54"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4039143971420418"/>
+            <translate value="440.90773010957031, 65.400337219238281, 238.1849670410156"/>
+        </transform>
+        <ref id="patch55"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.96348066934780674"/>
+            <translate value="524.2154598306397, 19.269529342651367, 219.69570922851563"/>
+        </transform>
+        <ref id="patch56"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1786525480666077"/>
+            <translate value="507.73609543549799, 23.572969436645508, 380.63250732421875"/>
+        </transform>
+        <ref id="patch57"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4315631160271876"/>
+            <translate value="277.0747680734375, 74.784263610839844, 195.54576110839838"/>
+        </transform>
+        <ref id="patch58"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2006108304010272"/>
+            <translate value="528.7879638742188, 24.012134552001953, 263.547119140625"/>
+        </transform>
+        <ref id="patch59"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4431604235857467"/>
+            <translate value="496.94077683198242, 55.614120483398437, 235.5675048828125"/>
+        </transform>
+        <ref id="patch60"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.80539348136319922"/>
+            <translate value="453.18177033173833, 16.107780456542969, 16.107889175415018"/>
+        </transform>
+        <ref id="patch61"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0422537824783848"/>
+            <translate value="379.63829041230474, 27.514019012451172, 139.68563842773435"/>
+        </transform>
+        <ref id="patch62"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3487763103206722"/>
+            <translate value="525.82445526826177, 87.239784240722656, 26.975526809692376"/>
+        </transform>
+        <ref id="patch63"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0751628184581907"/>
+            <translate value="500.15312576997076, 46.48193359375, 21.503101348876942"/>
+        </transform>
+        <ref id="patch64"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4011828426049617"/>
+            <translate value="222.14242554414062, 89.9698486328125, 156.73846435546866"/>
+        </transform>
+        <ref id="patch65"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.274530176778736"/>
+            <translate value="526.97027397858892, 25.490604400634766, 78.477432250976563"/>
+        </transform>
+        <ref id="patch66"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.9460507479374376"/>
+            <translate value="379.45243836152349, 18.920953750610352, 178.51171874999997"/>
+        </transform>
+        <ref id="patch67"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0984386746835686"/>
+            <translate value="453.65767670380865, 34.22479248046875, 124.6734924316406"/>
+        </transform>
+        <ref id="patch68"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0891499629783139"/>
+            <translate value="247.31536865937505, 21.782993316650391, 67.262931823730398"/>
+        </transform>
+        <ref id="patch69"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3558905457318946"/>
+            <translate value="405.70960999238287, 54.790004730224609, 110.07519531249997"/>
+        </transform>
+        <ref id="patch70"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.73745733955480575"/>
+            <translate value="483.97893524873052, 14.749161720275879, 14.749130249023422"/>
+        </transform>
+        <ref id="patch71"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.67817965431092431"/>
+            <translate value="468.04850769746088, 13.563596725463867, 541.944091796875"/>
+        </transform>
+        <ref id="patch72"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.59027472046072038"/>
+            <translate value="435.0537872384765, 11.80549430847168, 505.29034423828125"/>
+        </transform>
+        <ref id="patch73"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.86291455971422704"/>
+            <translate value="527.04764748322748, 17.258247375488281, 440.34527587890625"/>
+        </transform>
+        <ref id="patch74"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2003325318962552"/>
+            <translate value="122.14804077851556, 85.003250122070313, 535.19335937499989"/>
+        </transform>
+        <ref id="patch75"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2093468582871223"/>
+            <translate value="214.88351441132806, 24.186870574951172, 535.01300048828114"/>
+        </transform>
+        <ref id="patch76"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.50078649653555052"/>
+            <translate value="341.45292664277338, 10.015730857849121, 518.404541015625"/>
+        </transform>
+        <ref id="patch77"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3442681837602519"/>
+            <translate value="37.96954346406244, 26.885383605957031, 513.05786132812489"/>
+        </transform>
+        <ref id="patch78"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.95710631035518701"/>
+            <translate value="116.98574829804681, 19.141990661621094, 540.05792236328114"/>
+        </transform>
+        <ref id="patch79"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.64905099735883443"/>
+            <translate value="191.77325440156244, 12.981017112731934, 468.75271606445307"/>
+        </transform>
+        <ref id="patch80"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.9186498196060674"/>
+            <translate value="152.2883911203125, 18.373001098632812, 370.84924316406239"/>
+        </transform>
+        <ref id="patch81"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.89541510501357569"/>
+            <translate value="20.56793213593744, 17.908281326293945, 464.72564697265614"/>
+        </transform>
+        <ref id="patch82"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.78027594480006557"/>
+            <translate value="61.836761481640565, 15.605515480041504, 479.76022338867176"/>
+        </transform>
+        <ref id="patch83"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.67266553488722025"/>
+            <translate value="233.85714722382812, 13.453289985656738, 309.94830322265619"/>
+        </transform>
+        <ref id="patch84"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.5848739413263121"/>
+            <translate value="104.66079712617181, 11.697479248046875, 470.95523071289051"/>
+        </transform>
+        <ref id="patch85"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1803157085677887"/>
+            <translate value="95.79400635468744, 23.606307983398438, 503.20132446289051"/>
+        </transform>
+        <ref id="patch86"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.98656948646268416"/>
+            <translate value="252.39831543671875, 19.731447219848633, 336.74444580078119"/>
+        </transform>
+        <ref id="patch87"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.97707558716334586"/>
+            <translate value="141.79605103242187, 19.541509628295898, 325.74258422851551"/>
+        </transform>
+        <ref id="patch88"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.99524410489943049"/>
+            <translate value="22.26782227265619, 67.053909301757812, 412.87033081054676"/>
+        </transform>
+        <ref id="patch89"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2108246450060753"/>
+            <translate value="27.32678223359369, 24.216482162475586, 422.14587402343739"/>
+        </transform>
+        <ref id="patch90"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1028728210170313"/>
+            <translate value="180.11071778046875, 22.057422637939453, 341.74655151367182"/>
+        </transform>
+        <ref id="patch91"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2066596721127207"/>
+            <translate value="245.78302002656244, 24.133190155029297, 415.10296630859369"/>
+        </transform>
+        <ref id="patch92"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.5687444153273935"/>
+            <translate value="87.36590576874994, 11.37485408782959, 455.68704223632801"/>
+        </transform>
+        <ref id="patch93"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.73141986904328393"/>
+            <translate value="465.1059951852539, 14.628396987915039, 326.37142944335937"/>
+        </transform>
+        <ref id="patch94"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.98040548905875557"/>
+            <translate value="480.20008087861322, 55.728385925292969, 389.14199829101563"/>
+        </transform>
+        <ref id="patch95"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.58560990596081541"/>
+            <translate value="282.72814942109375, 11.71211051940918, 334.62710571289057"/>
+        </transform>
+        <ref id="patch96"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1021975028622877"/>
+            <translate value="448.47250366914056, 22.043970108032227, 461.503173828125"/>
+        </transform>
+        <ref id="patch97"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4889956459927156"/>
+            <translate value="402.26304627167963, 55.814205169677734, 529.42010498046875"/>
+        </transform>
+        <ref id="patch98"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.54659151708049236"/>
+            <translate value="541.11439514863275, 10.931826591491699, 389.08786010742187"/>
+        </transform>
+        <ref id="patch99"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0592926106913638"/>
+            <translate value="344.05123902070306, 21.185846328735352, 352.36056518554682"/>
+        </transform>
+        <ref id="patch100"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.57579409992716579"/>
+            <translate value="359.58793640839843, 11.515883445739746, 286.24838256835932"/>
+        </transform>
+        <ref id="patch101"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.59512891635488452"/>
+            <translate value="460.89053345429681, 11.902576446533203, 508.7901611328125"/>
+        </transform>
+        <ref id="patch102"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3780360097804989"/>
+            <translate value="485.65737915742181, 27.560770034790039, 426.581298828125"/>
+        </transform>
+        <ref id="patch103"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.5304216951871451"/>
+            <translate value="249.89068604218744, 10.608430862426758, 548.22491455078114"/>
+        </transform>
+        <ref id="patch104"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.461532181579722"/>
+            <translate value="221.16607666718744, 80.742424011230469, 451.02740478515619"/>
+        </transform>
+        <ref id="patch105"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0194155787864974"/>
+            <translate value="218.11840821015625, 40.624942779541016, 338.23867797851557"/>
+        </transform>
+        <ref id="patch106"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.99443491397855444"/>
+            <translate value="169.77987671601562, 45.795982360839844, 165.69990539550773"/>
+        </transform>
+        <ref id="patch107"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.52882539956489671"/>
+            <translate value="111.29470825898437, 10.576509475708008, 377.92092895507801"/>
+        </transform>
+        <ref id="patch108"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2940169275348539"/>
+            <translate value="368.4065551828125, 52.679039001464844, 205.81614685058591"/>
+        </transform>
+        <ref id="patch109"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2820390904500076"/>
+            <translate value="143.24139405, 25.640695571899414, 259.78308105468739"/>
+        </transform>
+        <ref id="patch110"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.58652709177853102"/>
+            <translate value="149.0587768625, 11.730494499206543, 293.97793579101551"/>
+        </transform>
+        <ref id="patch111"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3893870389151801"/>
+            <translate value="29.46905518281244, 119.52680206298828, 293.73452758789051"/>
+        </transform>
+        <ref id="patch112"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2130801649253486"/>
+            <translate value="272.53323364960937, 84.760856628417969, 143.80128479003901"/>
+        </transform>
+        <ref id="patch113"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.59540167739328875"/>
+            <translate value="16.20288086640619, 11.908036231994629, 263.08666992187489"/>
+        </transform>
+        <ref id="patch114"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1065995079885118"/>
+            <translate value="118.87039185273437, 67.230056762695312, 182.14920043945304"/>
+        </transform>
+        <ref id="patch115"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1327665861092766"/>
+            <translate value="296.69360352265625, 29.082597732543945, 183.02478027343744"/>
+        </transform>
+        <ref id="patch116"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.76471042847351867"/>
+            <translate value="194.38150025117193, 55.304283142089844, 15.294214248657147"/>
+        </transform>
+        <ref id="patch117"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.98827466384576557"/>
+            <translate value="145.85717774140625, 19.765491485595703, 146.50952148437491"/>
+        </transform>
+        <ref id="patch118"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1064444114285577"/>
+            <translate value="22.568115241406304, 87.648948669433594, 76.688224792480355"/>
+        </transform>
+        <ref id="patch119"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0488426568091365"/>
+            <translate value="21.886779792187554, 20.976861953735352, 158.9466094970702"/>
+        </transform>
+        <ref id="patch120"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.43708970345819"/>
+            <translate value="454.88315582978515, 90.013809204101563, 188.91645812988278"/>
+        </transform>
+        <ref id="patch121"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3069404386656054"/>
+            <translate value="134.3764648507813, 56.805843353271484, 33.983425140380767"/>
+        </transform>
+        <ref id="patch122"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.50571134848743327"/>
+            <translate value="73.654418952343804, 10.114223480224609, 80.480598449706932"/>
+        </transform>
+        <ref id="patch123"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4230383812731198"/>
+            <translate value="68.666259772656304, 80.582870483398438, 57.0840835571288"/>
+        </transform>
+        <ref id="patch124"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0275426443694942"/>
+            <translate value="21.186340339062554, 62.322475433349609, 111.01344299316395"/>
+        </transform>
+        <ref id="patch125"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3168103323798745"/>
+            <translate value="222.08331299531255, 26.336225509643555, 26.54375839233391"/>
+        </transform>
+        <ref id="patch126"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2126180072104646"/>
+            <translate value="171.58981323945318, 24.252384185791016, 24.252307891845618"/>
+        </transform>
+        <ref id="patch127"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.89536225935450775"/>
+            <translate value="121.39584351289068, 17.907077789306641, 17.907196044921779"/>
+        </transform>
+        <ref id="patch128"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0373132769073026"/>
+            <translate value="473.34339142548828, 80.521133422851562, 271.3983154296875"/>
+        </transform>
+        <ref id="patch129"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.85292720327832383"/>
+            <translate value="33.966491706250054, 17.058496475219727, 45.244060516357308"/>
+        </transform>
+        <ref id="patch130"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.489227552679304"/>
+            <translate value="414.93266297089849, 51.346111297607422, 170.63816833496091"/>
+        </transform>
+        <ref id="patch131"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.67408906625856124"/>
+            <translate value="365.01277161347656, 13.481728553771973, 207.00801086425778"/>
+        </transform>
+        <ref id="patch132"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.78912213100945305"/>
+            <translate value="366.62229920136713, 34.098304748535156, 326.08380126953119"/>
+        </transform>
+        <ref id="patch133"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1437763926257256"/>
+            <translate value="339.37055969941412, 22.875537872314453, 167.34233093261713"/>
+        </transform>
+        <ref id="patch134"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3149698203011351"/>
+            <translate value="526.50054360139154, 72.363761901855469, 279.02490234375"/>
+        </transform>
+        <ref id="patch135"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2904291897993554"/>
+            <translate value="452.22720337617187, 25.80858039855957, 203.20553588867185"/>
+        </transform>
+        <ref id="patch136"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.87357460935732678"/>
+            <translate value="448.62642670380859, 17.471437454223633, 160.02232360839841"/>
+        </transform>
+        <ref id="patch137"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3326758299145856"/>
+            <translate value="526.14644814240717, 69.622261047363281, 372.68069458007812"/>
+        </transform>
+        <ref id="patch138"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.92871499364152565"/>
+            <translate value="417.76644898164068, 18.574207305908203, 135.1903381347656"/>
+        </transform>
+        <ref id="patch139"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1104520614065521"/>
+            <translate value="456.39708710419922, 22.209041595458984, 258.76181030273437"/>
+        </transform>
+        <ref id="patch140"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.53201040425099533"/>
+            <translate value="473.33477020966791, 10.640206336975098, 369.27761840820312"/>
+        </transform>
+        <ref id="patch141"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.9420327351367811"/>
+            <translate value="490.11801529633789, 35.232700347900391, 278.21331787109375"/>
+        </transform>
+        <ref id="patch142"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.7291352214003024"/>
+            <translate value="515.47300720917963, 81.690879821777344, 334.72216796875"/>
+        </transform>
+        <ref id="patch143"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0986268936137809"/>
+            <translate value="530.8274211953858, 107.53901672363281, 154.16435241699219"/>
+        </transform>
+        <ref id="patch144"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.5735946821475606"/>
+            <translate value="210.50454712617187, 11.471893310546875, 138.23934936523429"/>
+        </transform>
+        <ref id="patch145"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1257995908112877"/>
+            <translate value="330.55484009492187, 22.515922546386719, 212.19221496582026"/>
+        </transform>
+        <ref id="patch146"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.65870755611877319"/>
+            <translate value="432.00587464082037, 13.174151420593262, 106.13165283203122"/>
+        </transform>
+        <ref id="patch147"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.72379652813912121"/>
+            <translate value="413.09770203339843, 14.475930213928223, 195.05570983886716"/>
+        </transform>
+        <ref id="patch148"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.61164129119688149"/>
+            <translate value="357.68934632050787, 12.232770919799805, 95.129562377929645"/>
+        </transform>
+        <ref id="patch149"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.77705385107149494"/>
+            <translate value="346.57765198457037, 15.541024208068848, 130.32701110839838"/>
+        </transform>
+        <ref id="patch150"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4278074223109734"/>
+            <translate value="447.65441132294927, 83.790382385253906, 132.41802978515622"/>
+        </transform>
+        <ref id="patch151"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.96024781701398065"/>
+            <translate value="421.81918335664068, 19.204938888549805, 32.038711547851534"/>
+        </transform>
+        <ref id="patch152"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.81243138348595922"/>
+            <translate value="305.38896179902349, 16.248540878295898, 147.34289550781244"/>
+        </transform>
+        <ref id="patch153"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.9232966811468829"/>
+            <translate value="528.90269280183111, 18.465932846069336, 35.108169555664055"/>
+        </transform>
+        <ref id="patch154"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.89347157273790079"/>
+            <translate value="373.09007263886724, 36.163967132568359, 85.318489074706989"/>
+        </transform>
+        <ref id="patch155"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0588182872726861"/>
+            <translate value="319.31962586152349, 44.612442016601563, 21.176876068115181"/>
+        </transform>
+        <ref id="patch156"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1399916943194386"/>
+            <translate value="409.0822753976563, 22.79986572265625, 71.904129028320284"/>
+        </transform>
+        <ref id="patch157"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.55440256867318549"/>
+            <translate value="389.43153382050781, 11.087894439697266, 205.70741271972653"/>
+        </transform>
+        <ref id="patch158"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0945329888581301"/>
+            <translate value="415.67582703339849, 58.551174163818359, 21.890668869018523"/>
+        </transform>
+        <ref id="patch159"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.80257757548846953"/>
+            <translate value="189.70730591523437, 16.051586151123047, 162.55796813964835"/>
+        </transform>
+        <ref id="patch160"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4869489998376566"/>
+            <translate value="446.95993042695306, 64.513282775878906, 491.09271240234375"/>
+        </transform>
+        <ref id="patch161"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.052974092349773"/>
+            <translate value="366.00717163789056, 21.059476852416992, 537.3089599609375"/>
+        </transform>
+        <ref id="patch162"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.84866105461076946"/>
+            <translate value="535.82702637421869, 41.097618103027344, 463.28851318359375"/>
+        </transform>
+        <ref id="patch163"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.80152589817707043"/>
+            <translate value="423.52825928437494, 16.030513763427734, 537.39794921875"/>
+        </transform>
+        <ref id="patch164"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.51148575020937537"/>
+            <translate value="165.04992676484369, 10.229714393615723, 426.55194091796864"/>
+        </transform>
+        <ref id="patch165"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0177975387812219"/>
+            <translate value="297.59196472871088, 20.3558349609375, 538.84417724609375"/>
+        </transform>
+        <ref id="patch166"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.73208915406699193"/>
+            <translate value="331.64384461152338, 14.641654014587402, 544.55828857421875"/>
+        </transform>
+        <ref id="patch167"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.69505434351038542"/>
+            <translate value="257.73895264374994, 13.901093482971191, 493.74893188476557"/>
+        </transform>
+        <ref id="patch168"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.69116577247064592"/>
+            <translate value="16.94439697968744, 13.823193550109863, 545.37677001953114"/>
+        </transform>
+        <ref id="patch169"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3923650315859564"/>
+            <translate value="75.92517090546869, 61.818714141845703, 531.35272216796864"/>
+        </transform>
+        <ref id="patch170"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.357055358709589"/>
+            <translate value="231.54086304414056, 27.141061782836914, 465.06399536132807"/>
+        </transform>
+        <ref id="patch171"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3056086197170411"/>
+            <translate value="100.99597168671869, 68.980461120605469, 483.55310058593739"/>
+        </transform>
+        <ref id="patch172"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.85333790663002773"/>
+            <translate value="19.61749268281244, 83.825584411621094, 445.71218872070301"/>
+        </transform>
+        <ref id="patch173"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.6374558133628222"/>
+            <translate value="63.462310798046815, 12.749117851257324, 417.83300781249989"/>
+        </transform>
+        <ref id="patch174"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.70889964267245764"/>
+            <translate value="209.10870362031244, 14.177994728088379, 498.24304199218744"/>
+        </transform>
+        <ref id="patch175"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.1262854869630803"/>
+            <translate value="173.48449707734369, 61.938461303710938, 443.84539794921869"/>
+        </transform>
+        <ref id="patch176"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.84889966394216432"/>
+            <translate value="60.894989020703065, 16.97801399230957, 447.21481323242176"/>
+        </transform>
+        <ref id="patch177"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.57343492510727756"/>
+            <translate value="279.25469971406244, 11.468696594238281, 506.99356079101557"/>
+        </transform>
+        <ref id="patch178"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2370517047770608"/>
+            <translate value="196.92407227265619, 24.741037368774414, 426.49368286132807"/>
+        </transform>
+        <ref id="patch179"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2091077805145325"/>
+            <translate value="26.14636231171869, 103.91094207763672, 343.19113159179676"/>
+        </transform>
+        <ref id="patch180"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2025466182936351"/>
+            <translate value="43.31311035859369, 52.490749359130859, 457.84933471679676"/>
+        </transform>
+        <ref id="patch181"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.71824961460052672"/>
+            <translate value="154.16619873749994, 14.364991188049316, 454.00445556640614"/>
+        </transform>
+        <ref id="patch182"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.138311986856676"/>
+            <translate value="212.82070923554687, 22.766210556030273, 381.76855468749994"/>
+        </transform>
+        <ref id="patch183"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3901177015915502"/>
+            <translate value="30.66558838593744, 79.545295715332031, 500.23864746093739"/>
+        </transform>
+        <ref id="patch184"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.358302556954639"/>
+            <translate value="225.08972168671869, 64.508094787597656, 504.89413452148432"/>
+        </transform>
+        <ref id="patch185"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.58248593654676784"/>
+            <translate value="483.20742798554687, 11.649718284606934, 347.81423950195312"/>
+        </transform>
+        <ref id="patch186"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.86079862057457301"/>
+            <translate value="463.48019409882806, 60.465789794921875, 447.32669067382812"/>
+        </transform>
+        <ref id="patch187"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.59696746294251657"/>
+            <translate value="225.35580445039062, 11.939247131347656, 351.27053833007807"/>
+        </transform>
+        <ref id="patch188"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.91043867321405469"/>
+            <translate value="288.18634033906244, 18.208770751953125, 398.75512695312494"/>
+        </transform>
+        <ref id="patch189"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.4177410530752623"/>
+            <translate value="338.84869385468744, 66.79193115234375, 370.99606323242182"/>
+        </transform>
+        <ref id="patch190"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.57259875243409109"/>
+            <translate value="525.1084861825683, 11.451972007751465, 408.97488403320312"/>
+        </transform>
+        <ref id="patch1"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.3488101708557274"/>
+            <translate value="403.57626343476556, 26.976047515869141, 480.55435180664057"/>
+        </transform>
+        <ref id="patch2"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.86091656032378139"/>
+            <translate value="358.95251465546869, 17.218338012695313, 411.22326660156244"/>
+        </transform>
+        <ref id="patch3"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.140276736242819"/>
+            <translate value="529.99446297395014, 50.456256866455078, 418.11251831054687"/>
+        </transform>
+        <ref id="patch4"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.051124970725565"/>
+            <translate value="326.69837952363275, 21.022481918334961, 391.03515624999994"/>
+        </transform>
+        <ref id="patch5"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.56056940651246734"/>
+            <translate value="344.85110474335931, 11.211385726928711, 321.43188476562494"/>
+        </transform>
+        <ref id="patch6"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.79190314587688804"/>
+            <translate value="505.91478348481439, 52.360614776611328, 455.87399291992187"/>
+        </transform>
+        <ref id="patch7"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="0.75626066401609404"/>
+            <translate value="480.16427613007806, 40.299873352050781, 468.12771606445312"/>
+        </transform>
+        <ref id="patch8"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.2667543514447219"/>
+            <translate value="376.26831055390619, 104.21029663085937, 533.864990234375"/>
+        </transform>
+        <ref id="patch9"/>
+    </shape>
+    <shape type="sphere">
+        <float name="radius" value="20"/>
+        <transform name="to_world">
+            <scale value="1.0920220712243056"/>
+            <translate value="259.24914551484369, 31.221071243286133, 524.97698974609364"/>
+        </transform>
+        <ref id="patch10"/>
+    </shape>
+</scene>

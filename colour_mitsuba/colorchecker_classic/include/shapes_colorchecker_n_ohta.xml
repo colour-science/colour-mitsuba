@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <include filename="colorchecker_classic/include/shapes_support.xml"/>
+    <include filename="colorchecker_classic/include/shapes_swatches.xml"/>
+
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/colorchecker_n_ohta_text.obj"/>
+        <ref id="colorchecker_classic_white_9_5___05_d"/>
+    </shape>
+</scene>

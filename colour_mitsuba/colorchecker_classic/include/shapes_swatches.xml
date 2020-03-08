@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/dark_skin_swatch.obj"/>
+        <ref id="colorchecker_classic_dark_skin"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/light_skin_swatch.obj"/>
+        <ref id="colorchecker_classic_light_skin"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/blue_sky_swatch.obj"/>
+        <ref id="colorchecker_classic_blue_sky"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/foliage_swatch.obj"/>
+        <ref id="colorchecker_classic_foliage"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/blue_flower_swatch.obj"/>
+        <ref id="colorchecker_classic_blue_flower"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/bluish_green_swatch.obj"/>
+        <ref id="colorchecker_classic_bluish_green"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/orange_swatch.obj"/>
+        <ref id="colorchecker_classic_orange"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/purplish_blue_swatch.obj"/>
+        <ref id="colorchecker_classic_purplish_blue"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/moderate_red_swatch.obj"/>
+        <ref id="colorchecker_classic_moderate_red"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/purple_swatch.obj"/>
+        <ref id="colorchecker_classic_purple"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/yellow_green_swatch.obj"/>
+        <ref id="colorchecker_classic_yellow_green"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/orange_yellow_swatch.obj"/>
+        <ref id="colorchecker_classic_orange_yellow"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/blue_swatch.obj"/>
+        <ref id="colorchecker_classic_blue"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/green_swatch.obj"/>
+        <ref id="colorchecker_classic_green"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/red_swatch.obj"/>
+        <ref id="colorchecker_classic_red"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/yellow_swatch.obj"/>
+        <ref id="colorchecker_classic_yellow"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/magenta_swatch.obj"/>
+        <ref id="colorchecker_classic_magenta"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/cyan_swatch.obj"/>
+        <ref id="colorchecker_classic_cyan"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/white_9_5___05_d_swatch.obj"/>
+        <ref id="colorchecker_classic_white_9_5___05_d"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/neutral_8___23_d_swatch.obj"/>
+        <ref id="colorchecker_classic_neutral_8___23_d"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/neutral_6_5___44_d_swatch.obj"/>
+        <ref id="colorchecker_classic_neutral_6_5___44_d"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/neutral_5___70_d_swatch.obj"/>
+        <ref id="colorchecker_classic_neutral_5___70_d"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/neutral_3_5__1_05_d_swatch.obj"/>
+        <ref id="colorchecker_classic_neutral_3_5__1_05_d"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="colorchecker_classic/geometry/black_2__1_5_d_swatch.obj"/>
+        <ref id="colorchecker_classic_black_2__1_5_d"/>
+    </shape>
+</scene>

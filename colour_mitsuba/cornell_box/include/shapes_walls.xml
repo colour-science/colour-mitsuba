@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <shape type="obj">
+        <string name="filename" value="cornell_box/geometry/floor.obj"/>
+        <ref id="cornell_box_white"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="cornell_box/geometry/ceiling.obj"/>
+        <ref id="cornell_box_white"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="cornell_box/geometry/back_wall.obj"/>
+        <ref id="cornell_box_white"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="cornell_box/geometry/right_wall.obj"/>
+        <ref id="cornell_box_green"/>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="cornell_box/geometry/left_wall.obj"/>
+        <ref id="cornell_box_red"/>
+    </shape>
+</scene>

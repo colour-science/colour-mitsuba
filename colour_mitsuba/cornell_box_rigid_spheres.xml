@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <default name="spp" value="256"/>
+    <default name="width" value="256"/>
+    <default name="height" value="256"/>
+    <default name="max_depth" value="6"/>
+
+    <default name="emitter" value="illuminant_d65"/>
+
+    <include filename="include/integrator.xml"/>
+
+    <include filename="cornell_box/include/sensor.xml"/>
+
+    <include filename="cornell_box/include/bsdfs.xml"/>
+    <include filename="cornell_box/include/shapes_walls.xml"/>
+
+    <include filename="include/190_patch_plastic.xml"/>
+    <include filename="rigid_spheres/include/shapes_190_patch.xml"/>
+    <include filename="rigid_spheres/include/shapes_ceiling_light.xml"/>
+
+    <include filename="colorchecker_classic/include/bsdfs.xml"/>
+    <include filename="colorchecker_classic/include/shapes.xml"/>
+</scene>

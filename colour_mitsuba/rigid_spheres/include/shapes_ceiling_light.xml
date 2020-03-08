@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <include filename="include/emitter_$emitter.xml"/>
+
+    <shape type="obj">
+        <string name="filename" value="cornell_box/geometry/light.obj"/>
+        <transform name="to_world">
+            <translate x="0" y="-0.1" z="0"/>
+        </transform>
+        <ref id="cornell_box_light"/>
+        <ref id="$emitter"/>
+    </shape>
+</scene>

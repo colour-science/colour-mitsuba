@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <include filename="colorchecker_classic/include/bsdfs_support.xml"/>
+    <include filename="colorchecker_classic/include/bsdfs_babelcolor_average.xml"/>
+</scene>

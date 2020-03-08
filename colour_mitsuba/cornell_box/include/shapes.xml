@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <include filename="cornell_box/include/shapes_walls.xml"/>
+    <include filename="cornell_box/include/shapes_short_block.xml"/>
+    <include filename="cornell_box/include/shapes_tall_block.xml"/>
+</scene>

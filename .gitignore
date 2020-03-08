@@ -1,0 +1,6 @@
+*.exr
+*.pyc
+*.pyo
+.DS_Store
+.idea
+__pycache__
