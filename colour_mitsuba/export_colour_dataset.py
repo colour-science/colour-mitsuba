@@ -27,7 +27,8 @@ __all__ = [
     'MITSUBA_SHAPE', 'slugify', 'format_spectrum',
     'export_AMPAS_training_data_bsdfs_files',
     'export_colorchecker_classic_bsdfs_files',
-    'export_colorchecker_classic_support_bsdfs_file', 'export_emitters_files'
+    'export_colorchecker_classic_support_bsdfs_file', 'export_emitters_files',
+    'export_synthetic_LEDs'
 ]
 
 MITSUBA_SHAPE = colour.SpectralShape(360, 830, 5)
@@ -39,13 +40,14 @@ def slugify(a):
                          str(a).strip()).strip().lower())
 
 
-def format_spectrum(sd):
-    return ', '.join('{0}:{1}'.format(wavelength, value)
+def format_spectrum(sd, decimals=15):
+    return ', '.join('{1}:{2:0.{0}f}'.format(decimals, wavelength, value)
                      for wavelength, value in zip(sd.wavelengths, sd.values))
 
 
 def export_AMPAS_training_data_bsdfs_files(bsdf_type='diffuse',
                                            ior=1.460,
+                                           alpha=0.05,
                                            output_directory='include'):
     sensitivities_database = colour_datasets.load('RAW to ACES Utility Data')
 
@@ -71,16 +73,23 @@ def export_AMPAS_training_data_bsdfs_files(bsdf_type='diffuse',
                 format_spectrum(sd)
             })
 
-        if bsdf_type == 'plastic':
+        if bsdf_type in ('plastic', 'roughplastic'):
             ET.SubElement(
                 bsdf, 'float', attrib={
                     'name': 'int_ior',
                     'value': str(ior)
                 })
 
+        if bsdf_type == 'roughplastic':
+            ET.SubElement(
+                bsdf, 'float', attrib={
+                    'name': 'alpha',
+                    'value': str(alpha)
+                })
+
     with open(
             os.path.join(output_directory,
-                         '190_patch_{}.xml'.format(bsdf_type)),
+                         'bsdfs_190_patch_{}.xml'.format(bsdf_type)),
             'w') as xml_file:
 
         xml_file.write(
@@ -152,11 +161,11 @@ def export_colorchecker_classic_support_bsdfs_file(
                 ET.tostring(scene)).toprettyxml(indent=' ' * 4))
 
 
-def export_emitters_files(
-        output_directory='include',
-        K_f=np.trapz(
-            colour.ILLUMINANTS_SDS['E'].copy().align(MITSUBA_SHAPE).values,
-            MITSUBA_SHAPE.range())):
+_K_f = np.trapz(colour.ILLUMINANTS_SDS['E'].copy().align(MITSUBA_SHAPE).values,
+                MITSUBA_SHAPE.range())
+
+
+def export_emitters_files(output_directory='include', K_f=_K_f):
     for category, sds in [('illuminant', colour.ILLUMINANTS_SDS),
                           ('light_source', colour.LIGHT_SOURCES_SDS)]:
         for sd in sds.values():
@@ -198,12 +207,56 @@ def export_emitters_files(
                         ET.tostring(scene)).toprettyxml(indent=' ' * 4))
 
 
+def export_synthetic_LEDs(
+        wavelengths=np.arange(450, 650, 10),
+        fwhm=20,
+        output_directory='include',
+        K_f=_K_f / 20):
+    sds = [
+        colour.sd_single_led(i, fwhm).align(MITSUBA_SHAPE) for i in wavelengths
+    ]
+
+    for sd in sds:
+        name = 'light_source_{0}'.format(slugify(sd.name))
+        scene = ET.Element('scene', attrib={'version': '2.0.0'})
+        emitter = ET.SubElement(
+            scene, 'emitter', attrib={
+                'type': 'area',
+                'id': name
+            })
+
+        # K_f is used to normalize a light source to produce the same
+        # amount of relative power per unit area per unit steradian that of
+        # Illuminant E.
+        if K_f != 1:
+            sd_K = sd.copy().align(MITSUBA_SHAPE)
+            K_n = np.trapz(sd_K.values, sd_K.wavelengths)
+
+        ET.SubElement(
+            emitter,
+            'spectrum',
+            attrib={
+                'name': 'radiance',
+                'value': format_spectrum(sd / K_n * K_f)
+            })
+
+        with open(
+                os.path.join(output_directory, 'emitter_{0}.xml'.format(name)),
+                'w') as xml_file:
+
+            xml_file.write(
+                xml.dom.minidom.parseString(
+                    ET.tostring(scene)).toprettyxml(indent=' ' * 4))
+
+
 if __name__ == '__main__':
     export_AMPAS_training_data_bsdfs_files()
     export_AMPAS_training_data_bsdfs_files('plastic')
+    export_AMPAS_training_data_bsdfs_files('roughplastic')
 
     export_colorchecker_classic_bsdfs_files()
     export_colorchecker_classic_bsdfs_files('ColorChecker N Ohta')
     export_colorchecker_classic_support_bsdfs_file()
 
     export_emitters_files()
+    export_synthetic_LEDs()

@@ -14,9 +14,12 @@
     <include filename="cornell_box/include/bsdfs.xml"/>
     <include filename="cornell_box/include/shapes_walls.xml"/>
 
-    <include filename="include/190_patch_plastic.xml"/>
+    <include filename="include/bsdfs_190_patch_roughplastic.xml"/>
+    <include filename="rigid_spheres/include/emitters_leds.xml"/>
     <include filename="rigid_spheres/include/shapes_190_patch.xml"/>
     <include filename="rigid_spheres/include/shapes_ceiling_light.xml"/>
+    <include filename="rigid_spheres/include/shapes_leds.xml"/>
+    <include filename="rigid_spheres/include/shapes_floor.xml"/>
 
     <include filename="colorchecker_classic/include/bsdfs.xml"/>
     <include filename="colorchecker_classic/include/shapes.xml"/>

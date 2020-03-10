@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <shape type="disk">
+        <transform name="to_world">
+            <translate x="0" y="-0.1" z="0"/>
+            <rotate x="1" angle="-90"/>
+            <scale value="10000"/>
+        </transform>
+        <ref id="cornell_box_white"/>
+    </shape>
+</scene>

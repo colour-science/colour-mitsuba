@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<scene version="2.0.0">
+    <include filename="include/emitter_light_source_450nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_460nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_470nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_480nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_490nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_500nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_510nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_520nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_530nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_540nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_550nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_560nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_570nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_580nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_590nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_600nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_610nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_620nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_630nm___20_fwhm_led___ohno__2005.xml"/>
+    <include filename="include/emitter_light_source_640nm___20_fwhm_led___ohno__2005.xml"/>
+</scene>
