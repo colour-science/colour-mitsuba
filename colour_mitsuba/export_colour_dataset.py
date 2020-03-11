@@ -166,12 +166,12 @@ _K_f = np.trapz(colour.ILLUMINANTS_SDS['E'].copy().align(MITSUBA_SHAPE).values,
 
 
 def export_emitters_files(output_directory='include', K_f=_K_f):
+    scene = ET.Element('scene', attrib={'version': '2.0.0'})
+
     for category, sds in [('illuminant', colour.ILLUMINANTS_SDS),
                           ('light_source', colour.LIGHT_SOURCES_SDS)]:
         for sd in sds.values():
             name = '{0}_{1}'.format(category, slugify(sd.name))
-
-            scene = ET.Element('scene', attrib={'version': '2.0.0'})
 
             emitter = ET.SubElement(
                 scene, 'emitter', attrib={
@@ -197,14 +197,14 @@ def export_emitters_files(output_directory='include', K_f=_K_f):
                                     K_f if category == 'light_source' else sd)
                 })
 
-            with open(
-                    os.path.join(output_directory,
-                                 'emitter_{0}.xml'.format(name)),
-                    'w') as xml_file:
+    with open(
+            os.path.join(output_directory,
+                            'emitters.xml'),
+            'w') as xml_file:
 
-                xml_file.write(
-                    xml.dom.minidom.parseString(
-                        ET.tostring(scene)).toprettyxml(indent=' ' * 4))
+        xml_file.write(
+            xml.dom.minidom.parseString(
+                ET.tostring(scene)).toprettyxml(indent=' ' * 4))
 
 
 def export_synthetic_LEDs(
@@ -216,9 +216,9 @@ def export_synthetic_LEDs(
         colour.sd_single_led(i, fwhm).align(MITSUBA_SHAPE) for i in wavelengths
     ]
 
+    scene = ET.Element('scene', attrib={'version': '2.0.0'})
     for sd in sds:
         name = 'light_source_{0}'.format(slugify(sd.name))
-        scene = ET.Element('scene', attrib={'version': '2.0.0'})
         emitter = ET.SubElement(
             scene, 'emitter', attrib={
                 'type': 'area',
@@ -240,13 +240,13 @@ def export_synthetic_LEDs(
                 'value': format_spectrum(sd / K_n * K_f)
             })
 
-        with open(
-                os.path.join(output_directory, 'emitter_{0}.xml'.format(name)),
-                'w') as xml_file:
+    with open(
+            os.path.join(output_directory, 'emitters_synthetic_leds.xml'),
+            'w') as xml_file:
 
-            xml_file.write(
-                xml.dom.minidom.parseString(
-                    ET.tostring(scene)).toprettyxml(indent=' ' * 4))
+        xml_file.write(
+            xml.dom.minidom.parseString(
+                ET.tostring(scene)).toprettyxml(indent=' ' * 4))
 
 
 if __name__ == '__main__':
