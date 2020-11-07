@@ -49,12 +49,13 @@ def export_AMPAS_training_data_bsdfs_files(bsdf_type='diffuse',
                                            ior=1.460,
                                            alpha=0.05,
                                            output_directory='include'):
-    sensitivities_database = colour_datasets.load('RAW to ACES Utility Data')
+    sensitivities_database = colour_datasets.load(
+        'RAW to ACES Utility Data - Dyer et al. (2017)')
 
     training_data = sensitivities_database['training']['190-patch']
 
     scene = ET.Element('scene', attrib={'version': '2.0.0'})
-    for sd in colour.colorimetry.sds_and_multi_sds_to_sds(training_data):
+    for sd in colour.colorimetry.sds_and_msds_to_sds(training_data):
         bsdf = ET.SubElement(
             scene,
             'bsdf',
@@ -101,7 +102,7 @@ def export_colorchecker_classic_bsdfs_files(
         colour_checker='BabelColor Average',
         output_directory='colorchecker_classic/include'):
     scene = ET.Element('scene', attrib={'version': '2.0.0'})
-    for sd in colour.COLOURCHECKERS_SDS[colour_checker].values():
+    for sd in colour.SDS_COLOURCHECKERS[colour_checker].values():
         bsdf = ET.SubElement(
             scene,
             'bsdf',
@@ -145,7 +146,7 @@ def export_colorchecker_classic_support_bsdfs_file(
             'name':
             'diffuse_reflectance',
             'value':
-            format_spectrum(colour.COLOURCHECKERS_SDS['BabelColor Average']
+            format_spectrum(colour.SDS_COLOURCHECKERS['BabelColor Average']
                             ['white 9.5 (.05 D)'] * 0.025)
         })
 
@@ -161,15 +162,19 @@ def export_colorchecker_classic_support_bsdfs_file(
                 ET.tostring(scene)).toprettyxml(indent=' ' * 4))
 
 
-_K_f = np.trapz(colour.ILLUMINANTS_SDS['E'].copy().align(MITSUBA_SHAPE).values,
+_K_f = np.trapz(colour.SDS_ILLUMINANTS['E'].copy().align(MITSUBA_SHAPE).values,
                 MITSUBA_SHAPE.range())
 
 
 def export_emitters_files(output_directory='include', K_f=_K_f):
+    led_database = colour_datasets.load(
+        'Measured Commercial LED Spectra - Brendel (2020)')
+
     scene = ET.Element('scene', attrib={'version': '2.0.0'})
 
-    for category, sds in [('illuminant', colour.ILLUMINANTS_SDS),
-                          ('light_source', colour.LIGHT_SOURCES_SDS)]:
+    for category, sds in [('illuminant', colour.SDS_ILLUMINANTS),
+                          ('light_source',
+                           dict(colour.SDS_LIGHT_SOURCES, **led_database))]:
         for sd in sds.values():
             name = '{0}_{1}'.format(category, slugify(sd.name))
 
@@ -197,10 +202,7 @@ def export_emitters_files(output_directory='include', K_f=_K_f):
                                     K_f if category == 'light_source' else sd)
                 })
 
-    with open(
-            os.path.join(output_directory,
-                            'emitters.xml'),
-            'w') as xml_file:
+    with open(os.path.join(output_directory, 'emitters.xml'), 'w') as xml_file:
 
         xml_file.write(
             xml.dom.minidom.parseString(
