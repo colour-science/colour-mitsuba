@@ -210,7 +210,7 @@ def export_emitters_files(output_directory='include', K_f=_K_f):
 
 
 def export_synthetic_LEDs(
-        wavelengths=np.arange(450, 650, 10),
+        wavelengths=np.arange(400, 710, 10),
         fwhm=20,
         output_directory='include',
         K_f=_K_f / 20):
