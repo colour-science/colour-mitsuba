@@ -211,9 +211,9 @@ def export_emitters_files(output_directory='include', K_f=_K_f):
 
 def export_synthetic_LEDs(
         wavelengths=np.arange(400, 701, 1),
-        fwhm=20,
+        fwhm=10,
         output_directory='include',
-        K_f=_K_f / 20):
+        K_f=_K_f):
     sds = [
         colour.sd_single_led(i, fwhm).align(MITSUBA_SHAPE) for i in wavelengths
     ]
