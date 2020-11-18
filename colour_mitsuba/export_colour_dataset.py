@@ -28,7 +28,7 @@ __all__ = [
     'export_AMPAS_training_data_bsdfs_files',
     'export_colorchecker_classic_bsdfs_files',
     'export_colorchecker_classic_support_bsdfs_file', 'export_emitters_files',
-    'export_synthetic_LEDs'
+    'export_synthetic_LEDs', 'export_emitters_bt2020'
 ]
 
 MITSUBA_SHAPE = colour.SpectralShape(360, 830, 5)
@@ -166,7 +166,7 @@ _K_f = np.trapz(colour.SDS_ILLUMINANTS['E'].copy().align(MITSUBA_SHAPE).values,
                 MITSUBA_SHAPE.range())
 
 
-def export_emitters_files(output_directory='include', K_f=_K_f):
+def export_emitters_files(K_f=_K_f, output_directory='include'):
     led_database = colour_datasets.load(
         'Measured Commercial LED Spectra - Brendel (2020)')
 
@@ -211,12 +211,16 @@ def export_emitters_files(output_directory='include', K_f=_K_f):
 
 def export_synthetic_LEDs(
         wavelengths=np.arange(400, 701, 1),
-        fwhm=10,
-        output_directory='include',
-        K_f=_K_f):
-    sds = [
-        colour.sd_single_led(i, fwhm).align(MITSUBA_SHAPE) for i in wavelengths
-    ]
+        fwhm=[10, 20, 30],
+        K_f=_K_f,
+        output_directory='include'):
+    sds = []
+
+    for j in fwhm:
+        sds += [
+            colour.sd_single_led(i, j).align(MITSUBA_SHAPE)
+            for i in wavelengths
+        ]
 
     scene = ET.Element('scene', attrib={'version': '2.0.0'})
     for sd in sds:
@@ -251,6 +255,49 @@ def export_synthetic_LEDs(
                 ET.tostring(scene)).toprettyxml(indent=' ' * 4))
 
 
+def export_emitters_bt2020(wavelengths=[630, 532, 467],
+                           fwhm=1,
+                           K_f=_K_f * 10,
+                           output_directory='include'):
+    sds = []
+
+    sds += [
+        colour.sd_single_led(i, fwhm).align(MITSUBA_SHAPE) for i in wavelengths
+    ]
+
+    scene = ET.Element('scene', attrib={'version': '2.0.0'})
+    for sd in sds:
+        name = 'light_source_bt2020_{0}'.format(slugify(sd.name))
+        emitter = ET.SubElement(
+            scene, 'emitter', attrib={
+                'type': 'area',
+                'id': name
+            })
+
+        # K_f is used to normalize a light source to produce the same
+        # amount of relative power per unit area per unit steradian that of
+        # Illuminant E.
+        if K_f != 1:
+            sd_K = sd.copy().align(MITSUBA_SHAPE)
+            K_n = np.trapz(sd_K.values, sd_K.wavelengths)
+
+        ET.SubElement(
+            emitter,
+            'spectrum',
+            attrib={
+                'name': 'radiance',
+                'value': format_spectrum(sd / K_n * K_f)
+            })
+
+    with open(
+            os.path.join(output_directory, 'emitters_synthetic_bt2020.xml'),
+            'w') as xml_file:
+
+        xml_file.write(
+            xml.dom.minidom.parseString(
+                ET.tostring(scene)).toprettyxml(indent=' ' * 4))
+
+
 if __name__ == '__main__':
     export_AMPAS_training_data_bsdfs_files()
     export_AMPAS_training_data_bsdfs_files('plastic')
@@ -262,3 +309,4 @@ if __name__ == '__main__':
 
     export_emitters_files()
     export_synthetic_LEDs()
+    export_emitters_bt2020()

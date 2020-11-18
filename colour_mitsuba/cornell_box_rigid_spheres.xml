@@ -10,6 +10,7 @@
     <include filename="include/integrator.xml"/>
     <include filename="include/emitters.xml"/>
     <include filename="include/emitters_synthetic_leds.xml"/>
+    <include filename="include/emitters_synthetic_bt2020.xml"/>
 
     <include filename="cornell_box/include/sensor.xml"/>
 
