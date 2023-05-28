@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
-<scene version="2.0.0">
+<scene version="3.0.0">
     <shape type="sphere">
         <float name="radius" value="20"/>
         <transform name="to_world">
             <scale value="1.5348433256149292"/>
             <translate value="250.3285369873047, 97.90015411376953, 67.2464599609375"/>
         </transform>
-        <ref id="light_source_400nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_400nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -14,7 +14,7 @@
             <scale value="1.741799235343933"/>
             <translate value="132.4945831298828, 133.59144592285156, 199.20761108398438"/>
         </transform>
-        <ref id="light_source_415nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_415nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -22,7 +22,7 @@
             <scale value="1.1291451454162598"/>
             <translate value="245.05010986328125, 69.34483337402344, 22.5771484375"/>
         </transform>
-        <ref id="light_source_431nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_431nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -30,7 +30,7 @@
             <scale value="1.3638832569122314"/>
             <translate value="456.903564453125, 84.79562377929688, 27.27799415588379"/>
         </transform>
-        <ref id="light_source_447nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_447nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -38,7 +38,7 @@
             <scale value="1.9299415349960327"/>
             <translate value="482.28997802734375, 143.50804138183594, 158.55209350585938"/>
         </transform>
-        <ref id="light_source_463nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_463nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -46,7 +46,7 @@
             <scale value="0.9119418263435364"/>
             <translate value="399.5034484863281, 86.5533447265625, 141.8522186279297"/>
         </transform>
-        <ref id="light_source_478nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_478nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -54,7 +54,7 @@
             <scale value="1.1921815872192383"/>
             <translate value="152.78321838378906, 85.0841064453125, 156.7563934326172"/>
         </transform>
-        <ref id="light_source_494nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_494nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -62,7 +62,7 @@
             <scale value="1.0681750774383545"/>
             <translate value="288.451904296875, 72.99683380126953, 28.328975677490234"/>
         </transform>
-        <ref id="light_source_510nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_510nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -70,7 +70,7 @@
             <scale value="1.327048420906067"/>
             <translate value="130.89010620117188, 106.97760772705078, 117.00730895996094"/>
         </transform>
-        <ref id="light_source_526nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_526nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -78,7 +78,7 @@
             <scale value="1.098252534866333"/>
             <translate value="22.956106185913086, 95.88483428955078, 137.05238342285156"/>
         </transform>
-        <ref id="light_source_542nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_542nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -86,7 +86,7 @@
             <scale value="1.5348435640335083"/>
             <translate value="227.5612030029297, 73.14263153076172, 391.9286193847656"/>
         </transform>
-        <ref id="light_source_557nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_557nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -94,7 +94,7 @@
             <scale value="1.7417991161346436"/>
             <translate value="35.826026916503906, 130.64877319335938, 192.0426788330078"/>
         </transform>
-        <ref id="light_source_573nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_573nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -102,7 +102,7 @@
             <scale value="1.1291450262069702"/>
             <translate value="426.03173828125, 95.32653045654297, 276.2608947753906"/>
         </transform>
-        <ref id="light_source_589nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_589nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -110,7 +110,7 @@
             <scale value="1.3638832569122314"/>
             <translate value="285.5826110839844, 119.39556884765625, 107.93492889404297"/>
         </transform>
-        <ref id="light_source_605nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_605nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -118,7 +118,7 @@
             <scale value="1.929942011833191"/>
             <translate value="399.16033935546875, 115.74855041503906, 225.2318572998047"/>
         </transform>
-        <ref id="light_source_621nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_621nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -126,7 +126,7 @@
             <scale value="0.9119418859481812"/>
             <translate value="378.9553527832031, 66.28057098388672, 246.4357147216797"/>
         </transform>
-        <ref id="light_source_636nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_636nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -134,7 +134,7 @@
             <scale value="1.1921818256378174"/>
             <translate value="176.36119079589844, 94.67637634277344, 197.0791473388672"/>
         </transform>
-        <ref id="light_source_652nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_652nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -142,7 +142,7 @@
             <scale value="1.0681747198104858"/>
             <translate value="135.83233642578125, 100.59969329833984, 244.58200073242188"/>
         </transform>
-        <ref id="light_source_668nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_668nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -150,7 +150,7 @@
             <scale value="1.327048420906067"/>
             <translate value="219.81541442871094, 119.59403991699219, 202.50111389160156"/>
         </transform>
-        <ref id="light_source_684nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_684nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
     <shape type="sphere">
         <float name="radius" value="20"/>
@@ -158,6 +158,6 @@
             <scale value="1.098252534866333"/>
             <translate value="268.0133056640625, 115.50218200683594, 224.1802520751953"/>
         </transform>
-        <ref id="light_source_700nm___10_fwhm_led___ohno__2005"/>
+        <ref id="light_source_700nm___10_fwhm___gaussian_47000K_f"/>
     </shape>
 </scene>

@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<scene version="2.0.0">
+<scene version="3.0.0">
     <default name="spp" value="256"/>
     <default name="width" value="256"/>
     <default name="height" value="256"/>

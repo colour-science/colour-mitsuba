@@ -4,14 +4,12 @@ Colour - Mitsuba
 Introduction
 ------------
 
-Various resources for **Mitsuba 2**: https://github.com/mitsuba-renderer/mitsuba2
+Various resources for **Mitsuba 3**: https://github.com/mitsuba-renderer/mitsuba3
 
 A `Google Colab notebook <https://colab.research.google.com/drive/18X8ICpZ6MZmWxOzXNpUF0ehb_emfUOf->`__ to generate camera sensitivities is also available.
 
 ..  image:: https://raw.githubusercontent.com/colour-science/colour-mitsuba/master/colour_mitsuba/images/cornell_boxes.png
 *CIE 1931 2 Degree Observer & Point Grey Grasshopper 50S5C Renders of the Cornell Box*
-
-
 
 Code of Conduct
 ---------------

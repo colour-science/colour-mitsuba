@@ -1,4 +1,4 @@
 <?xml version="1.0" ?>
-<scene version="2.0.0">
+<scene version="3.0.0">
     <include filename="colorchecker_classic/include/shapes_babelcolor_average.xml"/>
 </scene>
