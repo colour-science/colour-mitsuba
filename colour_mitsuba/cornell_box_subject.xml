@@ -5,7 +5,7 @@
     <default name="height" value="256"/>
     <default name="max_depth" value="10"/>
 
-    <default name="emitter_ceiling_light" value="light_source_400nm___10_fwhm___gaussian_470K_f"/>
+    <default name="emitter_ceiling_light" value="light_source_750nm___10_fwhm___ohno__2005_470K_f"/>
 
     <include filename="include/integrator.xml"/>
     <include filename="include/emitters.xml"/>
@@ -52,33 +52,33 @@
         <!-- <ref id="medium_inner"/> -->
     <!-- </shape> -->
 
-    <shape type="cylinder">
+    <!-- <shape type="cylinder">
         <float name="radius" value="100"/>
         <point name="p0" value="0, 120, 279.6"/>
         <point name="p1" value="556, 120, 279.6"/>
         <ref id="bsdf_outer"/>
-    </shape>
+    </shape> -->
 
-    <shape type="cylinder">
+    <!-- <shape type="cylinder">
         <float name="radius" value="50"/>
         <point name="p0" value="0, 60, 419.25"/>
         <point name="p1" value="556, 60, 419.25"/>
         <ref id="light_source_daylight_fl_4700K_f"/>
-    </shape>
+    </shape> -->
 
-    <!-- <shape type="sphere">
-        <float name="radius" value="200"/>
+    <shape type="sphere">
+        <float name="radius" value="175"/>
         <transform name="to_world">
-            <translate value="278, 200, 279.6"/>
+            <translate value="278, 87.5, 279.6"/>
         </transform>
         <ref id="bsdf_outer"/>
-    </shape> -->
+    </shape>
 
-    <!-- <shape type="sphere">
-        <float name="radius" value="125"/>
+    <shape type="sphere">
+        <float name="radius" value="100"/>
         <transform name="to_world">
-            <translate value="278, 75, 419.25"/>
+            <translate value="278, 50, 419.25"/>
         </transform>
         <ref id="light_source_daylight_fl_4700K_f"/>
-    </shape> -->
+    </shape>
 </scene>

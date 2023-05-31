@@ -76,7 +76,7 @@ def export_AMPAS_training_data_bsdfs_files(
 
     training_data = sensitivities_database["training"]["190-patch"]
 
-    scene = ET.Element("scene", attrib={"version": "2.0.0"})
+    scene = ET.Element("scene", attrib={"version": "3.0.0"})
     for sd in colour.colorimetry.sds_and_msds_to_sds(training_data):
         bsdf = ET.SubElement(
             scene,
@@ -112,7 +112,7 @@ def export_AMPAS_training_data_bsdfs_files(
 def export_colorchecker_classic_bsdfs_files(
     colour_checker="BabelColor Average", output_directory="colorchecker_classic/include"
 ):
-    scene = ET.Element("scene", attrib={"version": "2.0.0"})
+    scene = ET.Element("scene", attrib={"version": "3.0.0"})
     for sd in colour.SDS_COLOURCHECKERS[colour_checker].values():
         bsdf = ET.SubElement(
             scene,
@@ -141,7 +141,7 @@ def export_colorchecker_classic_bsdfs_files(
 def export_colorchecker_classic_support_bsdfs_file(
     output_directory="colorchecker_classic/include",
 ):
-    scene = ET.Element("scene", attrib={"version": "2.0.0"})
+    scene = ET.Element("scene", attrib={"version": "3.0.0"})
     bsdf = ET.SubElement(
         scene,
         "bsdf",
@@ -183,7 +183,7 @@ def export_emitters_files(K_f_s=_K_f_s, output_directory="include"):
         "Measured Commercial LED Spectra - Brendel (2020)"
     )
 
-    scene = ET.Element("scene", attrib={"version": "2.0.0"})
+    scene = ET.Element("scene", attrib={"version": "3.0.0"})
 
     for category, sds in [
         ("illuminant", colour.SDS_ILLUMINANTS),
@@ -224,24 +224,32 @@ def export_emitters_files(K_f_s=_K_f_s, output_directory="include"):
 
 
 def export_synthetic_LEDs(
-    wavelengths=np.arange(400, 701, 1),
+    wavelengths=tuple(np.arange(360, 831, 1).reshape([-1, 1]).tolist() + [[630, 467]]),
     fwhm=[10, 20, 30],
     K_f_s=_K_f_s / 10,
     normalise=True,
     output_directory="include",
 ):
-    scene = ET.Element("scene", attrib={"version": "2.0.0"})
+    scene = ET.Element("scene", attrib={"version": "3.0.0"})
     for i in fwhm:
         luminous_flux = colour.luminous_flux(
             colour.sd_single_led(555, i).align(MITSUBA_SHAPE)
         )
         for j in wavelengths:
-            sd = colour.sd_single_led(j, i).align(MITSUBA_SHAPE)
+            sd = colour.sd_multi_leds(j, i).align(MITSUBA_SHAPE)
+
             if normalise:
                 sd = scale_sd_to_luminous_flux(sd, luminous_flux)
 
             for K_f in K_f_s:
-                name = f"light_source_{slugify(sd.name)}_{int(K_f)}K_f"
+                name = (
+                    f"light_source_{slugify(sd.name)}_{int(K_f)}K_f".replace(
+                        "_0nm", "nm"
+                    )
+                    .replace("_0__", "__")
+                    .replace("1_0_peak_power_ratios___led___", "")
+                    .replace("___1__", "___")
+                )
                 emitter = ET.SubElement(
                     scene, "emitter", attrib={"type": "area", "id": name}
                 )
@@ -278,12 +286,8 @@ def export_emitters_bt2020(
     K_f_s=_K_f_s,
     output_directory="include",
 ):
-    sds = []
-
-    sds += [colour.sd_single_led(i, fwhm).align(MITSUBA_SHAPE) for i in wavelengths]
-
-    scene = ET.Element("scene", attrib={"version": "2.0.0"})
-    for sd in sds:
+    scene = ET.Element("scene", attrib={"version": "3.0.0"})
+    for sd in [colour.sd_single_led(i, fwhm).align(MITSUBA_SHAPE) for i in wavelengths]:
         for K_f in K_f_s:
             name = f"light_source_bt2020_{slugify(sd.name)}_{int(K_f)}K_f"
             emitter = ET.SubElement(
@@ -298,7 +302,7 @@ def export_emitters_bt2020(
                 K_n = np.trapz(sd_K.values, sd_K.wavelengths)
             else:
                 K_n = 1
-            
+
             ET.SubElement(
                 emitter,
                 "spectrum",
